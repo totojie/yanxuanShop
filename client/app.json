@@ -32,7 +32,8 @@
     "pages/shopping/address/address",
     "pages/shopping/addressAdd/addressAdd",
     "pages/goods/goods",
-    "pages/topicDetail/topicDetail"
+    "pages/topicDetail/topicDetail",
+    "pages/chat/chat"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -54,10 +55,10 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/topic/topic",
+        "pagePath": "pages/chat/chat",
         "iconPath": "static/images/ic_menu_topic_nor.png",
         "selectedIconPath": "static/images/ic_menu_topic_pressed.png",
-        "text": "专题"
+        "text": "智能问答"
       },
       {
         "pagePath": "pages/catalog/catalog",

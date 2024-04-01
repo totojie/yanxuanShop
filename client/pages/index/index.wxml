@@ -9,7 +9,7 @@
   <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
     <swiper-item wx:for="{{banner}}" wx:key="{{item.id}}">
       <navigator url="{{item.link}}">
-        <image src="{{item.image_url}}" background-size="cover"></image>
+        <image src="{{item.image_url}}" background-size="cover"></image>  
       </navigator>
     </swiper-item>
   </swiper>
@@ -20,7 +20,9 @@
       <text>{{item.name}}</text>
     </navigator>
   </view>
-  <view class="a-section a-brand">
+
+  <!-- 品牌供应商直供模块 -->
+  <!-- <view class="a-section a-brand">
     <view class="h">
       <navigator url="../brand/brand">
         <text class="txt">品牌制造商直供</text>
@@ -40,7 +42,8 @@
         </navigator>
       </view>
     </view>
-  </view>
+  </view> -->
+  
   <view class="a-section a-new" wx:if="{{newGoods.length > 0}}">
     <view class="h">
       <view>

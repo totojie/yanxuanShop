@@ -1,0 +1,80 @@
+.chatroom-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatroom-content {
+  flex: 1;
+  padding: 20rpx;
+  padding-bottom: 100rpx;
+  background-color: aliceblue;
+}
+
+.message-item {
+  margin-bottom: 10rpx;
+  display: flex;
+  align-items: flex-start;
+}
+
+.user .content {
+  background-color: #007AFF;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin-left: 10rpx;
+}
+
+.robot .content {
+  background-color: #ccc;
+  color: #000;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin-right: 10rpx;
+}
+
+.robot .avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 20rpx;
+}
+
+.user .avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 20rpx;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  padding: 20rpx;
+  /* 将底部固定定位的输入框和发送按钮分开，避免被键盘遮挡 */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.input-box {
+  flex: 1;
+  height: 40rpx; /* 设置相同的高度 */
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  padding: 10rpx;
+}
+
+.send-btn {
+  height: 75rpx; /* 设置相同的高度 */
+  margin-left: 10rpx;
+  background-color: #007AFF;
+  color: #fff;
+  border: none;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
