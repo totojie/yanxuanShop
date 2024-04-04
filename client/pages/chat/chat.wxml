@@ -1,9 +1,10 @@
+<!-- chat.wxml -->
 <view class="chatroom-container">
   <scroll-view scroll-y="true" class="chatroom-content" scroll-into-view="{{toView}}" scroll-with-animation>
     <block wx:for="{{messages}}" wx:key="index">
       <view class="message-item user" wx:if="{{item.type === 'user'}}">
-        <image class="avatar" src="{{item.avatar}}"></image>
         <view class="content">{{item.content}}</view>
+        <image class="avatar" src="{{item.avatar}}"></image>
       </view>
       <view class="message-item robot" wx:if="{{item.type === 'robot'}}">
         <image class="avatar" src="{{item.avatar}}"></image>

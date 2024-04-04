@@ -17,6 +17,11 @@
   align-items: flex-start;
 }
 
+.user {
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
 .user .content {
   background-color: #007AFF;
   color: #fff;
@@ -43,6 +48,7 @@
   width: 60rpx;
   height: 60rpx;
   border-radius: 20rpx;
+  margin-left: 7rpx;
 }
 
 .input-container {
